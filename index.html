@@ -12,15 +12,21 @@
   <form id="form">
     <input id="titulo" placeholder="Título">
     <input id="autor" placeholder="Autor">
-    <button>Cadastrar</button>
+    <button id="cadastrar">Cadastrar</button>
   </form>
 
   <p id="msg"></p>
   <p id="status"></p>
 
+  <div id="acoes">
+    <button id="mostrar">Mostrar livros</button>
+    <button>Editar</button> 
+    <button>Excluir</button>
+  </div>
+
   <table>
     <thead>
-      <tr><th>Id</th><th>Título</th><th>Autor</th><th>Ações</th></tr>
+      <tr><th>Id</th><th>Título</th><th>Autor</th></tr>
     </thead>
     <tbody id="corpo"></tbody>
   </table>
